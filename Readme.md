@@ -8,18 +8,6 @@ This project is an API testing framework built using **RestAssured** to test the
 - **src/main/java**: Contains the main classes and test cases.
 - **src/test/java**: Holds the test files, organized according to the API features being tested.
 
-## Features
-1. **GET /breeds**: 
-   - Retrieves a list of all cat breeds.
-   - Verifies the status code and structure of the response.
-   
-2. **GET /categories**:
-   - Fetches the available categories for cat images.
-   - Ensures the response data is correct and checks for the presence of specific categories.
-   
-3. **GET /images/search**:
-   - Searches and retrieves cat images based on breed or category.
-   - Tests the response to validate that the correct images are returned according to the search parameters.
 
 ## Tools & Technologies
 - **RestAssured**: For API test automation.
